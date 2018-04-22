@@ -1,20 +1,14 @@
 
 /* CSS Document */
 
-header{
-	background: #e8e8e8;
-	width: 99%;
-	top: 0px;
-	padding: .5em;
-	position: fixed;
 	
-	
-}	
 	
 h1{
 	display: inline;
-	padding: 0px 50px 0px 50px;
-	margin: 0px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin-top: 10px;
+	margin-left: 50px;
 	text-transform: uppercase;
 	font-size: 30px;
 	font-family: josefin-sans;
@@ -25,10 +19,16 @@ h1{
 
 .main-nav{
 	display: inline-block;
+	width: 100%;
+	height: 50px;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #87D1E3;
+}
+.main-nav ul{
 	float: right;
-	padding-right: 50px
-	
-	
+	margin-right: 30px;
+	margin-top: 24px;
 }
 .main-nav li{
 	display: inline-block;
@@ -42,9 +42,34 @@ h1{
 	display: block;
 	color:#191919;
 	text-decoration: none;
-	padding: 10px;
+	padding: 0px 10px 0px 10px;
 	
 }
 li a:hover {
-	background-color: #CDEC0D;
+	background-color: #87D1E3;
+	
+}
+.center{
+	display: block;
+	width: 100%;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+main{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+main ul{
+	list-style-type: none;
+}
+main li{
+	display: inline;
+	font-family: "josefin-sans";
+	padding: 20px;
+	font-size: 30px;
+	text-transform: lowercase;
+	text-decoration: underline;
+	
 }
