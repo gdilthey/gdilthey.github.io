@@ -1,66 +1,69 @@
-
 /* CSS Document */
 
-	
-	
-h1{
+.main-nav-desktop{
+	display: inline-block;
+	width: 100%;
+	height: 3em;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #87D1E3;
+}
+.main-nav-desktop h1{
 	display: inline;
 	float: left;
 	padding: 0px 0px 0px 0px;
 	margin-top: 10px;
 	margin-left: 50px;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 2em;
 	font-family: josefin-sans;
 	font-style: normal;
 	font-weight: 100;
 	letter-spacing: 3px;	
 }
-
-.main-nav{
-	display: inline-block;
-	width: 100%;
-	height: 50px;
-	border-bottom-style: solid;
-	border-bottom-width: thin;
-	border-bottom-color: #87D1E3;
-}
-.main-nav ul{
+.main-nav-desktop ul{
 	float: right;
 	margin-right: 30px;
 	margin-top: 24px;
 }
-.main-nav li{
+.main-nav-desktop li{
 	display: inline-block;
 	list-style-type: none;
-	
-	
-}
-.main-nav a{
-	text-transform: uppercase;
-	font-family: "josefin-sans";
-	display: block;
-	color:#191919;
-	text-decoration: none;
 	padding: 0px 10px 0px 10px;
 	
 }
-li a:hover {
-	background-color: #87D1E3;
+
+.main-nav-desktop a{
+	text-transform: uppercase;
+	font-family: "josefin-sans";
+	color:#191919;
+	text-decoration: none;
+	font-size: 1em;
 	
 }
-.center{
+.main-nav-desktop ul:hover > li{
+	opacity: .5;
+}
+
+.main-nav-desktop ul:hover > li:hover {
+	text-decoration: underline;
+	opacity: 1;
+		
+}
+
+main{
+	width: 100%;
+	justify-conent: center;
+	text-align: center;
+	margin-top: 6em;
+}
+main img{
 	display: block;
 	width: 100%;
-	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
 }
-main{
-	width: 100%;
-	text-align: center;
-	margin-top: 50px;
-}
+
 main ul{
 	list-style-type: none;
 }
@@ -68,8 +71,28 @@ main li{
 	display: inline;
 	font-family: "josefin-sans";
 	padding: 20px;
-	font-size: 30px;
+	font-size: 2em;
 	text-transform: lowercase;
 	text-decoration: underline;
 	
 }
+.body-sections{
+	display: inline;
+	padding: 0px 30px
+}
+.body-sections p{
+	float: left;
+	font-size: 18;
+	font-family:"josefin-sans";
+	width: 50%;	
+	padding: 0px 30px;
+}
+	
+.body-sections img{
+	display: inline;
+	padding: 0px 30px
+	
+	
+}	
+
+
