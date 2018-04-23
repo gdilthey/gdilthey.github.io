@@ -140,6 +140,7 @@ header li{
 		width: 20%;
 		height:	80%;
 		margin: 0px;
+		overflow: hidden;
 	}
 	.body-sections p{
 		width: 100%;
