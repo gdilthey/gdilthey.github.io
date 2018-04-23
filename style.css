@@ -1,25 +1,22 @@
 /* CSS Document */
 
 .main-nav-desktop{
-	display: inline-block;
 	width: 100%;
-	height: 3em;
+	height: 3rem;
 	border-bottom-style: solid;
 	border-bottom-width: thin;
 	border-bottom-color: #87D1E3;
 }
 .main-nav-desktop h1{
-	display: inline;
-	float: left;
-	padding: 0px 0px 0px 0px;
+	display: inline-block;
 	margin-top: 10px;
-	margin-left: 50px;
+	margin-left: 30px;
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 2rem;
 	font-family: josefin-sans;
 	font-style: normal;
-	font-weight: 100;
-	letter-spacing: 3px;	
+	font-weight: lighter;
+	letter-spacing: .2rem;	
 }
 .main-nav-desktop ul{
 	float: right;
@@ -38,7 +35,7 @@
 	font-family: "josefin-sans";
 	color:#191919;
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 1rem;
 	
 }
 .main-nav-desktop ul:hover > li{
@@ -51,48 +48,106 @@
 		
 }
 
-main{
+header{
 	width: 100%;
-	justify-conent: center;
+	justify-content: center;
 	text-align: center;
-	margin-top: 6em;
+	margin-top: 6rem;
 }
-main img{
+header img{
 	display: block;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
-
-main ul{
+.left-cello{
+	display: none;
+}
+header li{
 	list-style-type: none;
-}
-main li{
 	display: inline;
 	font-family: "josefin-sans";
-	padding: 20px;
-	font-size: 2em;
+	padding: 1.2rem;
+	font-size: 2rem;
 	text-transform: lowercase;
 	text-decoration: underline;
 	
 }
 .body-sections{
-	display: inline;
 	padding: 0px 30px
 }
 .body-sections p{
+	display: inline-block;
 	float: left;
 	font-size: 18;
 	font-family:"josefin-sans";
-	width: 50%;	
+	width: 40%;	
 	padding: 0px 30px;
 }
 	
 .body-sections img{
-	display: inline;
-	padding: 0px 30px
-	
+	display: inline-block;
+	padding: 10px 30px;
+	width: 40%;
 	
 }	
 
 
+
+@media (max-width: 480px){
+	.main-nav-desktop{
+		display: inline;
+		margin-bottom: 0px;
+		
+		
+	}
+	.main-nav-desktop h1{
+	display: inline-block;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-family: josefin-sans;
+	font-style: normal;
+	font-weight: lighter;
+	letter-spacing: .2rem;
+	}
+	.main-nav-desktop ul{
+		display: none;
+		
+	}
+	header ul{
+		text-align: center;
+		margin-top: 0px
+	}
+	header li{
+		diplay: inline-block;
+		float: right;
+		font-size: 3rem;
+		text-align: center;
+		margin-top: 30px
+	}
+	header{
+		width: 100%;
+		margin: 0px;
+		height: 500px;
+		margin-bottom: 30px	
+	}
+	header img{
+		display: none;
+		
+		
+	}
+	.left-cello{
+		display: block;
+		width: 20%;
+		height:	80%;
+		margin: 0px;
+	}
+	.body-sections p{
+		width: 100%;
+		padding: 0px;
+		margin: 10px 0px;	
+	}
+}
+	
+	
+	
+	
